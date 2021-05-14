@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: 'Lobster', cursive;    font-size: 14px;
+}
+.container{
+    width: fit-content;
+}
+h1{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+table{
+    /* border-collapse: collapse; */
+    border: 2px solid #eee;
+    user-select: none;
+}
+thead,tfoot{
+    background-color: #eee;
+}
+
+
+th,td{
+    font-weight: normal;
+    padding: 8px;
+    text-align: center;
+}
+tbody td:first-child{
+    color:red;
+}
+tbody td:last-child{
+    color:blue;
+}
+
+
+td.disable{
+    opacity: 0.3;
+}
+td.today{
+    font-weight: bold;
+    border: 1px gray solid;
+    border-radius: 25%;
+}
+#prev,#next,#today{
+    cursor: pointer;
+}
+#prev:hover,#next:hover,#today:hover{
+    opacity: 0.3;
+}
