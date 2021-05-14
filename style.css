@@ -1,14 +1,17 @@
 body{
     margin: 0;
-    font-family: 'Lobster', cursive;    font-size: 14px;
+    font-family: 'Lobster', cursive;    
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
 }
 .container{
     width: fit-content;
 }
 h1{
-    margin: 10px 0px;
+    margin: 5px 0px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Lobster', cursive;
 }
 table{
@@ -47,4 +50,8 @@ td.today{
 }
 #prev:hover,#next:hover,#today:hover{
     opacity: 0.3;
+}
+
+p{
+    font-size: 10px;
 }
